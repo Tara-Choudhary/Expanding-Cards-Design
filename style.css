@@ -10,7 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     background: white;
-    padding:20px;
+    padding:40px;
 }
 
 .container{
@@ -19,12 +19,15 @@ body {
     padding-left: 60px;
     padding-right: 60px;
     box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+    justify-content: center;
+    align-items:center;
     
 }
 
 .heading{
     display: flex;
     justify-content: center;
+    align-items:center;
     padding: 40px;
 }
 .wrapper {
