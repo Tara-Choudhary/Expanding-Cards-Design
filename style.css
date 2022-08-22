@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: aliceblue;
+}
+
+.container{
+    background: aliceblue;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.wrapper {
+    height: 50vh;
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    width: 5rem;
+    border-radius: 4rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: .7s;
+
+}
+
+.card.active {
+    width: 30rem;
+}
